@@ -144,9 +144,6 @@ else:
     ON_HEROKU = False
 URL = environ.get("URL", "")
 
-#Auto forward info
-FROM_DB = [int(fdb) for fdb in environ.get('FROM_DB', '').split() if re.match(r'^-?\d+$', fdb)]
-TARGET_DB = int(environ.get("TARGET_DB", ""))
 
 
 # Auto Approve Info : If True Then Bot Approve New Upcoming Join Request Else Not
