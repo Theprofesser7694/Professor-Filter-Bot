@@ -196,7 +196,7 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>[@BlackDeath_01]{file_name}
+    CAPTION = """<b>[@BlackDeath_01]{file_caption}
 
 >𝙵𝚒𝚕𝚎 𝚂𝚒𝚣𝚎 ♻️ ➥ {file_size}
 
