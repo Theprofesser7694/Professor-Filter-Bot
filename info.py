@@ -144,6 +144,10 @@ else:
     ON_HEROKU = False
 URL = environ.get("URL", "")
 
+# Website Info:
+WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', False)) # Set True or False
+# If Website Url Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
+WEBSITE_URL = environ.get("WEBSITE_URL", "")
 
 
 # Auto Approve Info : If True Then Bot Approve New Upcoming Join Request Else Not
